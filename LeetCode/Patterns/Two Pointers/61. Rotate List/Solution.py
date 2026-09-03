@@ -17,14 +17,15 @@ class Solution:
             return head
         k = k % l
         tail.next = head
-        def findkthnode(temp, pos):
-            cnt = 1
-            while(cnt != pos):
-                if(cnt == pos): return temp
-                temp = temp.next
-                cnt+=1
-            return temp
-        newlastnode = findkthnode(head,l-k)
+
+        newlastnode = head
+        cnt = 1
+        pos = l-k
+        while(cnt < pos):
+            newlastnode = newlastnode.next
+            cnt+=1
+        
+        
         head = newlastnode.next
         newlastnode.next = None
 
