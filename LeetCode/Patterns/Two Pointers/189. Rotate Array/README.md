@@ -1,6 +1,6 @@
 # 📝 189. Rotate Array (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/rotate-array/)
+🔗 [Problem Link](https://leetcode.com/problems/rotate-array/solutions/7184902/brute-force-to-optimised-approach-java-p-z4yy/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Python-blue)
 
