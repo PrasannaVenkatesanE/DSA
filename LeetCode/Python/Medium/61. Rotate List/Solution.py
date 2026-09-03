@@ -12,10 +12,11 @@ class Solution:
         while(tail.next != None):
             tail = tail.next
             l+=1
-        tail.next = head
+        
         if(k%l == 0):
             return head
         k = k % l
+        tail.next = head
         def findkthnode(temp, pos):
             cnt = 1
             while(cnt != pos):
