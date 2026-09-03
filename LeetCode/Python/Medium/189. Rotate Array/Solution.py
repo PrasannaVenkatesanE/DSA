@@ -6,7 +6,7 @@ class Solution:
         """
         
         n = len(nums)
-        
+        k = k
         def reverse(s,e):
             while(e > s):
                 temp = nums[s]
