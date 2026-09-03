@@ -8,9 +8,7 @@ class Solution:
         n = len(nums)
         k = k%n
 
-        reverse(0,n-1)
-        reverse(0,k-1)
-        reverse(k,n-1)
+        
         def reverse(s,e):
             while(e > s):
                 temp = nums[s]
@@ -18,6 +16,10 @@ class Solution:
                 nums[e] = temp
                 s+=1
                 e-=1
+
+        reverse(0,n-1)
+        reverse(0,k-1)
+        reverse(k,n-1)
 
 
             
