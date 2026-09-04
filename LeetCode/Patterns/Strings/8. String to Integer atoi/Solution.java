@@ -1,6 +1,6 @@
 class Solution {
     public int myAtoi(String s) {
-        
+        s = s.trim();
         if(s.isEmpty()){
             return 0;
         }
