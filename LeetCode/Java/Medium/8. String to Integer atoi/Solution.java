@@ -4,7 +4,7 @@ class Solution {
         if(s.isEmpty()){
             return 0;
         }
-        s = s.trim();
+        
         int i = 0 ;
         int sign = 1;
         int n = s.length();
