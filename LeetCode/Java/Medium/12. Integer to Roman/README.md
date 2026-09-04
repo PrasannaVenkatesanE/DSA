@@ -8,8 +8,8 @@
 Hash Table, Math, String
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 5 ms
+- **Memory:** 46.4 MB
 
 ---
 
@@ -17,7 +17,42 @@ Hash Table, Math, String
 
 Seven different symbols represent Roman numerals with the following values:
 
-SymbolValueI1V5X10L50C100D500M1000
+	
+		
+			Symbol
+			Value
+		
+	
+	
+		
+			I
+			1
+		
+		
+			V
+			5
+		
+		
+			X
+			10
+		
+		
+			L
+			50
+		
+		
+			C
+			100
+		
+		
+			D
+			500
+		
+		
+			M
+			1000
+		
+	
 
 Roman numerals are formed by appending the conversions of decimal place values from highest to lowest. Converting a decimal place value into a Roman numeral has the following rules:
 
