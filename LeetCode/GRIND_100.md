@@ -39,7 +39,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [ ] Longest Palindromic Substring
 - [ ] Palindromic Substrings
 - [ ] Regular Expression Matching
-- [x] [Letter Combinations of a Phone Number](./Java/Medium/17. Letter Combinations of a Phone Number/)
+- [x] [Letter Combinations of a Phone Number](./Python/Medium/17. Letter Combinations of a Phone Number/)
 
 ### 📂 Linked List
 - [ ] Reverse Linked List
