@@ -1,6 +1,6 @@
 # 📝 99. Recover Binary Search Tree (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/recover-binary-search-tree)
+🔗 [Problem Link](https://leetcode.com/problems/recover-binary-search-tree/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Tree, Depth-First Search, Binary Search Tree, Binary Tree
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 46.5 MB
 
 ---
 
