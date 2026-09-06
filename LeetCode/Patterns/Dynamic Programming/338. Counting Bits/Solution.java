@@ -1,19 +1,17 @@
 class Solution {
     public int[] countBits(int n) {
-        int[] res = new int[n+1];
-        res[0] = 0;
+        int[] dp = new int[n+1];
+        Arrays.fill(dp,0);
+
+        int offset = 1;
+
         for(int i=1;i<=n;i++){
-            int count = 0;
-            int val = i;
-            while(val > 2){
-                int rem = val%2;
-                if(rem == 1){
-                    count+=1;
-                }
-                val/=2;
+            if(offset *2 == i){
+                offset = i;
             }
-            res[i] = count+1;
+
+            dp[i] = dp[i-offset] + 1;
         }
-        return res;
+        return dp;
     }
 }
