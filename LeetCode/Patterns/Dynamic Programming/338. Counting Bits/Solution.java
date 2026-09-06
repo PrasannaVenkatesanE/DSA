@@ -2,9 +2,7 @@ class Solution {
     public int[] countBits(int n) {
         int[] res = new int[n+1];
         res[0] = 0;
-        res[1] = 1;
-        res[2] = 1;
-        for(int i=3;i<=n;i++){
+        for(int i=1;i<=n;i++){
             int count = 0;
             int val = i;
             while(val > 2){
