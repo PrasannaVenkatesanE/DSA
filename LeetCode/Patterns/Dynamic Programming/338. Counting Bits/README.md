@@ -8,8 +8,8 @@
 Dynamic Programming, Bit Manipulation
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 2 ms
+- **Memory:** 48.9 MB
 
 ---
 
