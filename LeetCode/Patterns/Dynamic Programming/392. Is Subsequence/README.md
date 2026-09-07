@@ -1,6 +1,6 @@
 # 📝 392. Is Subsequence (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/is-subsequence/)
+🔗 [Problem Link](https://leetcode.com/problems/is-subsequence/solutions/8496336/java-easy-solution-by-yogesh7564-8sej/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Plaintext-blue)
 
