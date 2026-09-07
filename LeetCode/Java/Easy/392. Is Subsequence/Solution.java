@@ -12,8 +12,11 @@ class Solution {
                 s_index++;
             }
             t_index++;
+            if(s_index == s.length()){
+                return true;
+            }
         }
 
-        return s_index == s.length();
+        return false;
     }
 }
