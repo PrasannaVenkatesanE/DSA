@@ -29,7 +29,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [ ] Reverse Bits
 
 ### 📂 Dynamic Programming
-- [x] [Climbing Stairs](./Python/Easy/70. Climbing Stairs/)
+- [x] [Climbing Stairs](./Java/Easy/70. Climbing Stairs/)
 - [ ] Coin Change
 - [ ] Longest Increasing Subsequence
 - [ ] Longest Common Subsequence

@@ -89,7 +89,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [ ] Implement Trie (Prefix Tree)
 
 ### 📂 Dynamic Programming
-- [x] [Climbing Stairs](./Python/Easy/70. Climbing Stairs/)
+- [x] [Climbing Stairs](./Java/Easy/70. Climbing Stairs/)
 - [ ] Coin Change
 - [ ] Word Break
 - [ ] Longest Increasing Subsequence
