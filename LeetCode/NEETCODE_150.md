@@ -125,7 +125,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 
 ### 📂 1-D Dynamic Programming
 - [x] [Climbing Stairs](./Java/Easy/70. Climbing Stairs/)
-- [x] [Min Cost Climbing Stairs](./Plaintext/Easy/746. Min Cost Climbing Stairs/)
+- [x] [Min Cost Climbing Stairs](./Java/Easy/747. Min Cost Climbing Stairs/)
 - [ ] House Robber
 - [ ] House Robber II
 - [ ] Longest Palindromic Substring
