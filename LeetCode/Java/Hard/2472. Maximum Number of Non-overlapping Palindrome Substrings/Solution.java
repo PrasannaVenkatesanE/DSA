@@ -6,7 +6,7 @@ class Solution {
             for(int j=i;j<s.length()+1;j++){
                 String str = s.substring(i,j);
                 if(str.length()>=k && isPalindrome(str)){
-                    i = j+;
+                    i = j+1;
                     System.out.println(str);
                     count++;
                     
