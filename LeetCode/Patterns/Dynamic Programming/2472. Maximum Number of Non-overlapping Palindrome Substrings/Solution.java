@@ -1,10 +1,12 @@
 class Solution {
     public int maxPalindromes(String s, int k) {
         int count = 0;
+        Map<String,Integer> map = new HashMap<>();
         for(int i=0;i<s.length();i++){
             for(int j=i;j<s.length()+1;j++){
                 String str = s.substring(i,j);
                 if(str.length()>=k && isPalindrome(str)){
+                    i = j+;
                     System.out.println(str);
                     count++;
                     
