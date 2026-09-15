@@ -7,8 +7,7 @@ class Solution {
                 String str = s.substring(i,j);
                 if(str.length()>=k && isPalindrome(str)){
                     i = j;
-                    System.out.println(str);
-                    count++;
+                    
                     break;
                 }
             }
