@@ -4,11 +4,10 @@ class Solution {
         for(int i=0;i<s.length();i++){
             for(int j=i;j<s.length()+1;j++){
                 String str = s.substring(i,j);
-                if(str.length()>=k){
+                if(str.length()>=k && isPalindrome(str)){
                     System.out.println(str);
-                    if(isPalindrome(str)){
-                        count++;
-                    }
+                    count++;
+                    
                 }
             }
         }
