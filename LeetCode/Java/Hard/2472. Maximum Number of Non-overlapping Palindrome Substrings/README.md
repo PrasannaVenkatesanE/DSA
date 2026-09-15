@@ -1,6 +1,6 @@
 # 📝 2472. Maximum Number of Non-overlapping Palindrome Substrings (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/?envType=daily-question&envId=2026-09-15)
+🔗 [Problem Link](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/solutions/8521949/solution-by-la_castille-qs2h/?envType=daily-question&envId=2026-09-15)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,7 +8,7 @@
 Two Pointers, String, Dynamic Programming, Greedy
 
 ### 🚀 Performance
-- **Runtime:** N/A
+- **Runtime:** Successfully Evaluated
 - **Memory:** N/A
 
 ---
