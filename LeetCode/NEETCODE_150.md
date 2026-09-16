@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 7 / 150 (4.7%)
+- **Completed:** 8 / 150 (5.3%)
 
 ---
 
@@ -169,7 +169,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Minimum Interval to Include Each Query
 
 ### 📂 Bit Manipulation
-- [ ] Single Number
+- [x] [Single Number](./Java/Easy/136. Single Number/)
 - [ ] Number of 1 Bits
 - [x] [Counting Bits](./Java/Easy/338. Counting Bits/)
 - [ ] Reverse Bits
