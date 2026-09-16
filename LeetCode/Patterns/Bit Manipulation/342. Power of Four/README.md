@@ -1,6 +1,6 @@
 # 📝 342. Power of Four (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/power-of-four)
+🔗 [Problem Link](https://leetcode.com/problems/power-of-four/solutions/6756560/video-give-me-3-minutes-without-bitwise-8uqkb/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Plaintext-blue)
 
