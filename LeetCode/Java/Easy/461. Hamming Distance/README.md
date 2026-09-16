@@ -8,8 +8,8 @@
 Bit Manipulation
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 64 ms
+- **Memory:** 42.1 MB
 
 ---
 
