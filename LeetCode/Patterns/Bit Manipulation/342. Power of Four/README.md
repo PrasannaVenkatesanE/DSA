@@ -1,8 +1,8 @@
 # 📝 342. Power of Four (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/power-of-four/solutions/7081839/bit-manipulation-1-linerbeats-100-by-anw-2kc1/)
+🔗 [Problem Link](https://leetcode.com/problems/power-of-four/)
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Plaintext-blue)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
 ### 💡 Tags
 Math, Bit Manipulation, Recursion
