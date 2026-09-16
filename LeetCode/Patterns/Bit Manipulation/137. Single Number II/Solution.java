@@ -1,17 +1,17 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        int ans = 0;
-        for(int i=0;i<32;i++){
-            int count = 0;
-            for(int num:nums){
-                count += (num>>i) & 1;
-            }
-            
-            if(count%3!=0){
-                ans |= (1<<i);
+        Map<Integer, Integer> map = new HashMap<>();
+        
+        for (int x : nums) {
+            map.put(x, map.getOrDefault(x, 0) + 1);
+        }
+
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            if (entry.getValue() == 1) {
+                return entry.getKey();
             }
         }
-        return ans;
         
+        return -1;
     }
 }
