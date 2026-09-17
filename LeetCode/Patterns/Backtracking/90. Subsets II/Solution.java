@@ -12,11 +12,12 @@ class Solution {
                     subset.add(nums[i]);
                 }
             }
+            Collections.sort(subset);
             if(!res.contains(subset)){
                 res.add(subset);
             }
             
-            
+
         }
         return res;
     }
