@@ -10,8 +10,21 @@ class Solution {
                 if(i==j){
                     continue;
                 }
+                Map<Character,Integer> map = new HashMap<>();
                 String str = arr.get(i)+arr.get(j);
-                if(str.length() > max){
+                //System.out.println(str);
+                int flag = 1;
+                for(int k=0;k<str.length();k++){
+                    map.put(str.charAt(k),map.getOrDefault(str.charAt(k),0)+1);
+                }
+                for(int z=0;z<str.length();z++){
+                    if(map.get(str.charAt(z)) > 1){
+                        System.out.println(str);
+                        flag = 0;
+                        break;
+                    }
+                }
+                if(flag == 1 && str.length() > max){
                     max = str.length();
                 }
             }
