@@ -3,25 +3,19 @@ class Solution:
         rows = len(matrix)
         cols = len(matrix[0])
 
-        cache = {}
+        dp = [[0]*cols for _ in range(rows)]
+        maxside = 0 
+        for i in range(rows):
+            for j in range(cols):
 
+                if(matrix[i][j] == '1'):
 
-        def helper(r,c):
-            if(r >= rows or c >= cols):
-                return 0
-            
-            if (r,c) not in cache:
-                down = helper(r+1,c)
-                right = helper(r,c+1)
-                diagonal = helper(r+1,c+1)
+                    if i == 0 or j == 0:
+                        dp[i][j] = 1
 
-                cache[(r,c)] = 0
+                    else:
+                        dp[i][j] = 1 + min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1])
 
-                if(matrix[r][c] == "1"):
-                    cache[(r,c)] = 1 + min(down, right , diagonal)
-            
-            return cache[(r,c)]
+                    maxside = max(maxside, dp[i][j])
 
-        helper(0,0)
-
-        return max(cache.values())**2
+        return maxside**2

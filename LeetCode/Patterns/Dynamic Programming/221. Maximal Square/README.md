@@ -8,8 +8,8 @@
 Array, Dynamic Programming, Matrix
 
 ### 🚀 Performance
-- **Runtime:** 461 ms
-- **Memory:** 121.8 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
