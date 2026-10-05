@@ -1,6 +1,6 @@
 # 📝 63. Unique Paths II (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/unique-paths-ii/solutions/8555956/unique-paths-ii-recursion-memoization-to-7gtx/)
+🔗 [Problem Link](https://leetcode.com/problems/unique-paths-ii/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
