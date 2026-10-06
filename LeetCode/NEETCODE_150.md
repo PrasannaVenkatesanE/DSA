@@ -139,7 +139,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 
 ### 📂 2-D Dynamic Programming
 - [x] [Unique Paths](./Java/Medium/62. Unique Paths/)
-- [x] [Longest Common Subsequence](./Java/Medium/1143. Longest Common Subsequence/)
+- [x] [Longest Common Subsequence](./Java/Medium/1250. Longest Common Subsequence/)
 - [ ] Best Time to Buy and Sell Stock with Cooldown
 - [ ] Coin Change II
 - [ ] Target Sum
