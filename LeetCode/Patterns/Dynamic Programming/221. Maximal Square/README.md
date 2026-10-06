@@ -1,6 +1,6 @@
 # 📝 221. Maximal Square (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/maximal-square)
+🔗 [Problem Link](https://leetcode.com/problems/maximal-square/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Array, Dynamic Programming, Matrix
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 8 ms
+- **Memory:** 71 MB
 
 ---
 
