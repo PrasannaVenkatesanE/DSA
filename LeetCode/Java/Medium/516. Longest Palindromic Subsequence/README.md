@@ -1,6 +1,6 @@
 # 📝 516. Longest Palindromic Subsequence (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/longest-palindromic-subsequence/)
+🔗 [Problem Link](https://leetcode.com/problems/longest-palindromic-subsequence)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
