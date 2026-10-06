@@ -1,30 +1,38 @@
 class Solution {
     public int minFallingPathSum(int[][] matrix) {
-        int row = matrix.length;
-        int col = matrix[0].length;
+        int n = matrix.length;
 
-        int min = Integer.MAX_VALUE;
+        int[][] dp = new int[n][n];
 
-        for(int j=0;j<col;j++){
-            min = Math.min(min, helper(matrix,row-1,j));
+        for(int j=0;j<n;j++){
+            dp[0][j] = matrix[0][j];
         }
 
-        return min;
-    }
+        for(int i=1;i<n;i++){
+            for(int j=0;j<n;j++){
+                
+                int u = dp[i-1][j];
 
-    static int helper(int[][] mat, int i , int j){
-        
-        if(j<0 || j>=mat[0].length){
-            return 10000;
+                int left = Integer.MAX_VALUE;
+                if(j > 0){
+                    left = dp[i-1][j-1];
+                }
+
+                int right = Integer.MAX_VALUE;
+                if(j<n-1){
+                    right = dp[i-1][j+1];
+                }
+
+                dp[i][j] = matrix[i][j] + Math.min(u,Math.min(left,right));
+            }
         }
-        if(i==0){
-            return mat[0][j];
+
+        int ans = Integer.MAX_VALUE;
+
+        for(int j=0;j<n;j++){
+            ans = Math.min(ans,dp[n-1][j]);
         }
 
-        int u = mat[i][j] + helper(mat,i-1,j);
-        int ld = mat[i][j] +  helper(mat,i-1,j-1);
-        int rd = mat[i][j] + helper(mat,i-1,j+1);
-
-        return Math.min(u, Math.min(ld,rd));
-    }
+        return ans;
+    }   
 }
