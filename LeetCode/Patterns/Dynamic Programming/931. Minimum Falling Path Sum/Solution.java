@@ -15,7 +15,7 @@ class Solution {
     static int helper(int[][] mat, int i , int j){
         
         if(j<0 || j>=mat[0].length){
-            return 10000;
+            return 1000000;
         }
         if(i==0){
             return mat[0][j];
